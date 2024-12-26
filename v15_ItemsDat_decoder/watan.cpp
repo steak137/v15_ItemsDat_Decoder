@@ -292,6 +292,7 @@ int main() {
 		}
 		if (itemsdatVersion >= 17) memPos += 4;
 		if (itemsdatVersion >= 18) memPos += 4;
+		if (itemsdatVersion >= 19) memPos += 9;
 		if (i != itemID)
 			std::cout << "Item are unordered!" << std::endl;
 		j["itemID"] = itemID;
